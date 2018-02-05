@@ -1,0 +1,15 @@
+{
+  "name": "passport-vodafone-saml",
+  "version": "1.0.0",
+  "description": "passport strategy for Vodafone specific SAML integration",
+  "main": "index.js",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "node-forge": "^0.7.1",
+    "passport-saml": "^0.32.1",
+    "xml-crypto": "^0.10.1",
+    "xmldom": "^0.1.27",
+    "xpath.js": "^1.1.0"
+  }
+}
