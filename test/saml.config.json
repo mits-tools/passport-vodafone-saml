@@ -1,0 +1,22 @@
+{
+  "authPath": "/auth",
+  "callbackHTTPMethod": "post",
+  "callbackPath": "/auth/callback",
+  "callbackURL": "https://www.example.com/auth/callback",
+  "emailOptional": true,
+  "entryPoint": "https://saml2.provider.com",
+  "failureFlash": false,
+  "failureRedirect": "/",
+  "identifierFormat": "urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified",
+  "issuer": "https://www.example.com/",
+  "logoutCallbackUrl": "https://www.example.com/logout",
+  "metadataFile": "test/saml.idp.xml",
+  "path": "/auth/callback",
+  "protocol": "https://",
+  "provider": "example",
+  "sp": {
+    "entityId": "http://localhost:3000/",
+    "nameIdFormat": "urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified"
+  },
+  "successRedirect": "/home"
+}
